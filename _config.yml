@@ -62,7 +62,6 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-toc
 
 jekyll-mentions:
     base_url: https://github.com
