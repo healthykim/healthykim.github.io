@@ -27,12 +27,25 @@ figcaption {
 	color: $color_10;
 }
 p {
-	margin: 0 0 1em;
-	line-height: 1.6;
+	line-height: 2;
 	code {
 		@extend %extend_1;
 	}
 }
+
+ub {
+	border-bottom: 2px solid;
+	border-bottom-color: blue;
+}
+URed {
+	border-bottom: 2px solid;
+	border-bottom-color: red;
+}
+
+li {
+	line-height: 2;
+}
+
 hr {
 	margin: 1.563em 0 1.563em;
 	color: $color_11;
