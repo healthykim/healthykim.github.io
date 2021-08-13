@@ -2,7 +2,7 @@
 title:          healthykim
 bio:            'SNU CLS, CS & Philosophy'
 description:    "Simple Jekyll theme for your blog by Taylan Tatlı"
-picture:        'assets/img/Logo.png'
+picture:        'assets/img/Logo.PNG'
 locale:         en_US
 url:            "https://healthykim.github.io"
 
