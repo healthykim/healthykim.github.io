@@ -40,8 +40,14 @@ fatal 에러는 내 깃에 접근 실패했다는 것인데, 이것은 내가 �
 
 
 ## fatal 에러 해결 : keyChain 정보수정
-### 첫 번째 시도 실패 : git config --global --unset credential.helper osxkeychain
+### 첫 번째 시도(실패) : git config --global 변경
   비밀번호를 바꿨을 때와 동일하게 global config에 저장된 정보를 없애고, 자동 로그인을 하지 않는 방식(접근할 때마다 password입력하는 방식)으로 바꿔서 다시 입력하면 된다고 생각했다. 그런데 왜인지 실패했다.
+  git config --global credential.helper osxkeychain과 git config --global --unset user.password 을 모두 시도했지만 모두 실패해서 계속 자동 로그인되었다.
+  
+### 두 번째 시도 : keychain에서 직접 변경
+ 맥북 [기타] > [키체인 설정] 에서 github에 해당하는 암호를 직접 변경했다. 
  
-
  
+ 
+ 
+ 종류가 두가지 있었는데, 아래 것만 변경했을 때는 에러가 해결되지 않았고, 위의 것만 변경했을 때는 에러가 해결되었다. 이유를 모르겠다. 
