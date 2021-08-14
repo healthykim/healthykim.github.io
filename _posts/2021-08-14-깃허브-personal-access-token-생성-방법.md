@@ -40,7 +40,7 @@ fatal 에러는 내 깃에 접근 실패했다는 것인데, 이것은 내가 �
 
 
 ## fatal 에러 해결 : keyChain 정보수정
-### 첫 번째 시도 실패 : git config --unset credential.helper
+### 첫 번째 시도 실패 : git config --global --unset credential.helper osxkeychain
   비밀번호를 바꿨을 때와 동일하게 global config에 저장된 정보를 없애고, 자동 로그인을 하지 않는 방식(접근할 때마다 password입력하는 방식)으로 바꿔서 다시 입력하면 된다고 생각했다. 그런데 왜인지 실패했다.
  
 
